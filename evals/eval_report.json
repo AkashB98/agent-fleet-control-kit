@@ -1,0 +1,73 @@
+{
+  "evals": [
+    {
+      "detail": {
+        "run-a": [
+          "done",
+          4
+        ],
+        "run-b": [
+          "done",
+          5
+        ],
+        "run-c": [
+          "running",
+          2
+        ],
+        "run-d": [
+          "running",
+          5
+        ],
+        "run-e": [
+          "queued",
+          1
+        ]
+      },
+      "name": "E1_golden_final_state",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "name": "E2_truncated_tail_tolerated",
+      "pass": true
+    },
+    {
+      "detail": 3,
+      "name": "E3_rejected_commands_logged",
+      "pass": true
+    },
+    {
+      "detail": [
+        "run-c"
+      ],
+      "name": "E4_stale_exactly_run_c",
+      "pass": true
+    },
+    {
+      "detail": {
+        "done": 2,
+        "queued": 1,
+        "running": 2
+      },
+      "name": "E5_summary_counts",
+      "pass": true
+    },
+    {
+      "detail": 20,
+      "name": "E6_events_count",
+      "pass": true
+    },
+    {
+      "detail": "076aaa13e5d0a31b",
+      "name": "E7_replay_determinism",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "name": "E8_idempotent_commands",
+      "pass": true
+    }
+  ],
+  "passed": 8,
+  "total": 8
+}
